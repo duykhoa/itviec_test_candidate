@@ -38,7 +38,7 @@ class VirtualBookProxy
   end
 
   def book_store_connections
-@book_store_connections ||= []
+    @book_store_connections ||= []
   end
 
   def current_pool_size
